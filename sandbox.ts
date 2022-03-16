@@ -12,6 +12,8 @@ age = 40;
 // isBlackBelt = 'yes'; can't be string but be boolean 
 isBlackBelt = true;
 
+//can specify the type you expect in a function argument
+//checks are happening here, not in the JS file. less errors in the browser.
 const circ = (diameter: number) => {
   return diameter * Math.PI;
 };
